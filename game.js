@@ -50,7 +50,7 @@ var config = {
             debug: false
         }
     },
-    scene: [Level1]
+    scene: [Title, Level1, End]
     //{
     // key: 'main',
     // preload: preload,

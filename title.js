@@ -12,8 +12,8 @@ class Title extends Phaser.Scene {
     create() {
         this.cameras.main.setBackgroundColor('#FFC0CB');
 
-        this.title = this.add.text(100, 200, "Roly Poly: To the End")
-        this.title.setScale(3)
+        this.title = this.add.text(100, 500, "Roly Poly: To the End")
+        this.title.setScale(8)
         this.tweens.add({
             targets: this.title,
             alpha:0,
@@ -25,7 +25,7 @@ class Title extends Phaser.Scene {
         // this.fairy = this.add.image(200, 100, 'fairy');
         // this.rolypoly = this.add.image(300, 100, 'rolypoly');
 
-        const playText = this.add.text(350, 400, 'PLAY', { fontSize: '20px', fill: '#fff' });
+        const playText = this.add.text(800, 800, 'PLAY', { fontSize: '60px', fill: '#fff' });
         //playText.setDepth(1);
         playText.setInteractive();
         playText.on('pointerover', () => {
