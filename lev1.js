@@ -8,9 +8,6 @@ class Level1 extends Phaser.Scene {
         this.load.path = "./assets/";
         this.load.image('snail', 'snail.png');
         this.load.image('roly', 'roly_poly.png');
-        // map made with Tiled in JSON format
-        // tiles in spritesheet 
-        // this.load.image('player', 'dashstill.png');
     }
 
     create() {
